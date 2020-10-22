@@ -1,6 +1,6 @@
 # Auto detect text files and perform LF normalization
 * text=auto
-/*#include<iostream>
+#include<iostream>
 #include<conio.h>
 #include<bits/stdc++.h>
 using namespace std;
@@ -8,7 +8,7 @@ int countFreq(string &pat, string &txt){
     int M=pat.length();
     int N=txt.length();
     int res=0;
-    for(int i=0;i<=N-M;i++){
+    for(int i=0;i<=N-M;i++){            //This loop counts the frequency of the words
             int j;
         for(j=0;j<M;j++)
             if(txt[i+j]!=pat[j])
@@ -26,7 +26,7 @@ int main(){
     cout<<countFreq(pat,txt);
     return 0;
 }
-*/
+
 //arranging the array in ascending order
 /*
 #include<iostream>
