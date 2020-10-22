@@ -1,2 +1,58 @@
 # Auto detect text files and perform LF normalization
 * text=auto
+/*#include<iostream>
+#include<conio.h>
+#include<bits/stdc++.h>
+using namespace std;
+int countFreq(string &pat, string &txt){
+    int M=pat.length();
+    int N=txt.length();
+    int res=0;
+    for(int i=0;i<=N-M;i++){
+            int j;
+        for(j=0;j<M;j++)
+            if(txt[i+j]!=pat[j])
+                break;
+            if(j==M){
+                res++;
+                j=0;
+            }
+    }
+    return res;
+}
+int main(){
+    string txt="adabcaccabc";
+    string pat="abc";
+    cout<<countFreq(pat,txt);
+    return 0;
+}
+*/
+//arranging the array in ascending order
+/*
+#include<iostream>
+#include<conio.h>
+#include<algorithm>
+using namespace std;
+int main(){
+    int a[5],i,j,temp;
+    cout<<"enter the elements of array";
+    for(i=0;i<5;i++){
+        cin>>a[i];
+    }
+    for(i=0;i<5;i++){
+            for(int j=i+1;j<5;j++){
+                    if(a[j]<a[i]){
+                temp=a[i];
+                a[i]=a[j];
+                a[j]=temp;
+            }
+    }
+    }
+cout<<"elemets of array in sorted order";
+for(i=0;i<5;i++){
+    cout<<a[i];
+    cout<<"\t";
+}
+return 0;
+}
+*/
