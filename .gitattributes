@@ -28,7 +28,7 @@ int main(){
 }
 
 //arranging the array in ascending order
-/*
+
 #include<iostream>
 #include<conio.h>
 #include<algorithm>
@@ -55,4 +55,4 @@ for(i=0;i<5;i++){                       //This loop displays elements of an arra
 }
 return 0;
 }
-*/
+
