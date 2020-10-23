@@ -1,0 +1,20 @@
+struct HEIGHT
+{
+    int f;
+    int i;
+
+};
+int main()
+{
+    struct HEIGHT h1,h2,h3;
+    int d;
+    printf("enter height of p1:");
+    scanf("%d%d",&h1.f,&h1.i);
+    printf("enter height of p2:");
+    scanf("%d%d",&h2.f,&h2.i);
+    d=abs((h1.f*12+h1.i)-(h2.f*12+h2.i));
+    h3.f=d/12;
+    h3.i=d%12;
+    printf("feet=%d  inch=%d",h3.f,h3.i);
+
+}
