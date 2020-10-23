@@ -20,6 +20,7 @@ int countFreq(string &pat, string &txt){
     }
     return res;
 }
+//main 
 int main(){
     string txt="adabcaccabc";
     string pat="abc";
@@ -49,7 +50,7 @@ int main(){
     }
     }
 cout<<"elemets of array in sorted order";
-for(i=0;i<5;i++){                       //This loop displays elements of an array in a sorted order
+for(i=0;i<5;i++){                      
     cout<<a[i];
     cout<<"\t";
 }
